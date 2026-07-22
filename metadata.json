@@ -1,6 +1,6 @@
 {
-  "name": "SheetCleaner Pro",
-  "description": "Offline smart spreadsheet cleaner & beautifier for CSV, XLS, XLSX, and Google Sheets exports with instant formatting, duplicate removal, and seamless export.",
+  "name": "CleanGrid Solutions AI",
+  "description": "Offline smart spreadsheet cleaner, deduplicator & data beautifier powered by CleanGrid Solutions AI with instant formatting and zero server uploads.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
