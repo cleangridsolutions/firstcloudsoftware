@@ -15,6 +15,7 @@ import { DataGrid } from './components/DataGrid';
 import { ExportModal } from './components/ExportModal';
 import { OfflineGuideModal } from './components/OfflineGuideModal';
 import { Sparkles, Sliders, CheckCircle2 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const DEFAULT_CLEANING_OPTIONS: CleaningOptions = {
   removeDuplicates: true,
@@ -202,6 +203,7 @@ export default function App() {
           </button>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
