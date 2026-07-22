@@ -191,7 +191,7 @@ export default function App() {
       <footer className="border-t border-slate-200 bg-white py-3 text-center text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>
-            CleanGrid Solutions • Professional Offline Data Sanitization
+            CleanGrid Solutions AI • Professional Offline Data Sanitization
           </span>
           <button
             onClick={() => setShowOfflineGuide(true)}

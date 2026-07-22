@@ -42,13 +42,18 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-3">
         {/* Logo & Title */}
         <div className="flex items-center space-x-3">
-          <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold italic text-xl shadow-sm">
-            D
+          <div className="w-9 h-9 bg-white border border-slate-200 rounded-lg p-1 flex items-center justify-center shadow-sm">
+            <img
+              src="/logo.svg"
+              alt="CleanGrid Solutions AI"
+              className="w-full h-full object-contain"
+              referrerPolicy="no-referrer"
+            />
           </div>
           <div>
             <div className="flex items-center space-x-2">
               <h1 className="text-lg font-bold tracking-tight text-slate-800">
-                SheetCleaner <span className="text-blue-600">Pro</span>
+                CleanGrid Solutions <span className="text-blue-600">AI</span>
               </h1>
               <button
                 onClick={onOpenOfflineGuide}
@@ -60,7 +65,7 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             </div>
             <p className="text-xs text-slate-500 font-medium">
-              Sanitize, deduplicate & format sheets instantly
+              Intelligent data sanitization, deduplication & automated cleaning
             </p>
           </div>
         </div>

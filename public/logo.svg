@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Polyhedral Grid Network (Blue lines) -->
+  <g stroke="#0066FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Outer Octagonal Ring -->
+    <polygon points="250,25 390,70 460,210 440,360 320,460 180,460 60,360 40,210 110,70" />
+
+    <!-- Inner Grid Connections -->
+    <line x1="250" y1="25" x2="250" y2="130" />
+    <line x1="390" y1="70" x2="330" y2="180" />
+    <line x1="460" y1="210" x2="380" y2="280" />
+    <line x1="440" y1="360" x2="320" y2="380" />
+    <line x1="320" y1="460" x2="250" y2="370" />
+    <line x1="180" y1="460" x2="180" y2="370" />
+    <line x1="60" y1="360" x2="140" y2="280" />
+    <line x1="40" y1="210" x2="120" y2="180" />
+    <line x1="110" y1="70" x2="170" y2="180" />
+
+    <line x1="250" y1="130" x2="330" y2="180" />
+    <line x1="330" y1="180" x2="380" y2="280" />
+    <line x1="380" y1="280" x2="320" y2="380" />
+    <line x1="320" y1="380" x2="250" y2="370" />
+    <line x1="250" y1="370" x2="180" y2="370" />
+    <line x1="180" y1="370" x2="140" y2="280" />
+    <line x1="140" y1="280" x2="120" y2="180" />
+    <line x1="120" y1="180" x2="170" y2="180" />
+    <line x1="170" y1="180" x2="250" y2="130" />
+
+    <!-- Cross Ribs -->
+    <line x1="250" y1="25" x2="170" y2="180" />
+    <line x1="250" y1="25" x2="330" y2="180" />
+    <line x1="110" y1="70" x2="120" y2="180" />
+    <line x1="390" y1="70" x2="380" y2="280" />
+    <line x1="460" y1="210" x2="330" y2="180" />
+    <line x1="40" y1="210" x2="170" y2="180" />
+    <line x1="60" y1="360" x2="180" y2="370" />
+    <line x1="440" y1="360" x2="380" y2="280" />
+    <line x1="320" y1="460" x2="320" y2="380" />
+    <line x1="180" y1="460" x2="140" y2="280" />
+  </g>
+
+  <!-- Network Nodes (Blue filled dots) -->
+  <g fill="#0066FF">
+    <circle cx="250" cy="25" r="16" />
+    <circle cx="390" cy="70" r="14" />
+    <circle cx="460" cy="210" r="14" />
+    <circle cx="440" cy="360" r="14" />
+    <circle cx="320" cy="460" r="16" />
+    <circle cx="180" cy="460" r="16" />
+    <circle cx="60" cy="360" r="14" />
+    <circle cx="40" cy="210" r="14" />
+    <circle cx="110" cy="70" r="14" />
+
+    <circle cx="250" cy="130" r="14" />
+    <circle cx="330" cy="180" r="13" />
+    <circle cx="380" cy="280" r="13" />
+    <circle cx="320" cy="380" r="13" />
+    <circle cx="250" cy="370" r="14" />
+    <circle cx="180" cy="370" r="13" />
+    <circle cx="140" cy="280" r="13" />
+    <circle cx="120" cy="180" r="13" />
+    <circle cx="170" cy="180" r="13" />
+  </g>
+
+  <!-- Center Lightning Bolt (Blue) -->
+  <path d="M 270,170 L 195,270 L 235,270 L 220,350 L 300,240 L 255,240 Z" fill="#0066FF" />
+
+  <!-- Bottom-Right Leaf (Vibrant Green) -->
+  <path d="M 265,370 C 265,370 330,270 370,270 C 370,320 320,380 265,370 Z" fill="url(#leafGrad)" />
+  <path d="M 275,365 C 310,335 340,305 355,285" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none" />
+</svg>

@@ -59,7 +59,7 @@ export const OfflineGuideModal: React.FC<OfflineGuideModalProps> = ({
             <span>How Your Data Stays Completely Private</span>
           </div>
           <p className="text-slate-600 leading-relaxed text-[11px]">
-            SheetCleaner Pro processes all spreadsheet rows, regex transformations, and file encodings locally in your Web Browser memory (RAM). No data is sent to any external server or API.
+            CleanGrid Solutions AI processes all spreadsheet rows, regex transformations, and file encodings locally in your Web Browser memory (RAM). No data is sent to any external server or API.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export const OfflineGuideModal: React.FC<OfflineGuideModalProps> = ({
             <div className="flex items-center gap-2 font-medium">
               <CheckCircle2 className="w-4 h-4 text-green-600 shrink-0" />
               <span>
-                <strong>Bookmark for Fast Access:</strong> Simply bookmark the URL in Chrome, Edge, Safari, or Firefox to launch SheetCleaner Pro anytime.
+                <strong>Bookmark for Fast Access:</strong> Simply bookmark the URL in Chrome, Edge, Safari, or Firefox to launch CleanGrid Solutions AI anytime.
               </span>
             </div>
           </div>
