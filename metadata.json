@@ -1,0 +1,6 @@
+{
+  "name": "SheetCleaner Pro",
+  "description": "Offline smart spreadsheet cleaner & beautifier for CSV, XLS, XLSX, and Google Sheets exports with instant formatting, duplicate removal, and seamless export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
